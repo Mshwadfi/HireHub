@@ -10,7 +10,7 @@ const Header = () => {
         <SignedOut>
         <Link className='bg-gray-200' href={'https://enjoyed-hen-3.accounts.dev/sign-in?redirect_url=http%3A%2F%2Flocalhost%3A3000%2F'}>Login</Link>
         </SignedOut>
-        <Link className='bg-cyan-500 text-white' href={'/find-job'}>Find Job</Link>
+        <Link className='bg-cyan-500 text-white' href={'/list-job'}>Post Job</Link>
        </nav>
        <SignedIn>
           <UserButton />
